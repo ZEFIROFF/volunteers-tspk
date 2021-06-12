@@ -1,11 +1,13 @@
-import './App.css';
-import Home from './component/pages/Home/Home'
+import React from "react";
+import AppRouter from "./components/AppRouter";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="gl hf">
-      <Home />
-    </div>
+    <>
+      <Header />
+      <AppRouter />
+    </>
   );
 }
 
