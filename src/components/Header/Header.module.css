@@ -1,0 +1,47 @@
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    margin: 0 10px;
+}
+.navbar a {
+    background: linear-gradient(currentColor 0 0)
+    bottom left/
+    var(--underline-width, 0%) 0.1em
+    no-repeat;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 .5em 0.2em;
+    text-decoration: none;
+    transition: background-size 0.5s;
+}
+#active{
+    --underline-width: 100%;
+}
+.navbar a:hover {
+    --underline-width: 100%;
+}
+.signIn a{
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border-radius: 15px 0 15px 0;
+}
+.signIn a:hover{
+    background: rgb(255, 255, 255);
+    color: var(--background-blue);
+}
+.name h1{
+    font-size: 2em !important;
+    font-weight: bold;
+}
+.title{
+    margin-top: 170px;
+}
+header{
+    color: var(--text-white);
+    background-image: url('../../img/backHeader.png');
+    background-size: contain;
+    background-repeat: round;
+}
