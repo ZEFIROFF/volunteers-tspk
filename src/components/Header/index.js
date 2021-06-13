@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../favicon.png'
 import s from './Header.module.css'
-import emoji from '../../img/emoji.png'
+// import emoji from '../../img/emoji.png'
 
 const Header = () => {
     return (
@@ -20,7 +20,7 @@ const Header = () => {
                     <div className={s.name + " col-md-5"}>
                         <h1>Волонтерский центр <br/> "Добро = счастье" ГАПОУ TСПК</h1>
                     </div>
-                    <div className="col-md-4"><img src={emoji} alt="emoji"/></div>
+                    {/* <div className="col-md-4"><img src={emoji} alt="emoji"/></div> */}
                 </div>
             </div>
         </header>
