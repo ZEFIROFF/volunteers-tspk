@@ -1,0 +1,28 @@
+.block {
+    border-radius: 15px;
+    background-color: var(--background-blue-light);
+    box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);
+}
+
+.title {
+    color: var(--text-ocean);
+    font-weight: bold;
+}
+
+.amount {
+    color: var(--text-blue)
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+.btnReadmore {
+    padding: 10px;
+    cursor: pointer;
+}
+#readmore{
+    color: var(--text-blue)
+}

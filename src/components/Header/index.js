@@ -6,7 +6,7 @@ import emoji from '../../img/emoji.png'
 const Header = () => {
     return (
         <header>
-            <div className="container-xl">
+            <div className="container-xxl">
                 <nav className="row justify-content-between align-items-center">
                     <div className="col col-lg-4"><img src={logo} alt={logo}/></div>
                     <ul className={s.navbar + " col col-md-7 row "}>
