@@ -48,7 +48,7 @@
 
 header {
     color: var(--text-white);
-    /* background-image: url('../../img/backHeader.png'); */
+    background-image: url('../../img/backHeader.png');
     background-size: contain;
     background-repeat: round;
 }

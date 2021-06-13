@@ -11,8 +11,6 @@ const MyComponent = () => {
                 <Block/>
                 <div className="btnBlock mx-auto col-8">
                     <h3 id={s.readmore}>Смотреть дальше</h3>
-                    <button type="button" className="btn btn-outline-primary">Смотреть дальше</button>
-                {/*    ебани ту которая лучше будет я сам хз прост*/}
                 </div>
             </section>
         </div>
