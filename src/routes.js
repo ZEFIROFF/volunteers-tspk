@@ -1,5 +1,5 @@
 import Home from "./components/Home";
-import Events from "./components/Events";
+import CreateEvent from "./components/Admin/CreateEvent";
 
 const routes = [
     {
@@ -7,8 +7,8 @@ const routes = [
         component: Home
     },
     {
-        path: '/events',
-        component: Events
+        path: '/admin/create-event',
+        component: CreateEvent
     }
 ]
 
