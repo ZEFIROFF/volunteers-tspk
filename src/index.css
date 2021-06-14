@@ -1,5 +1,5 @@
 :root {
-    --background-blue: #a2d1fa;
+    --background-blue: #8bd2fc;
     --background-blue-light: #f1f9fe;
     --background-gray: #9a9a9a;
     --background-gray-dark: #696969;
@@ -21,7 +21,9 @@ a {
 a:hover {
     color: #ffffff;
 }
-
+.Gallery{
+    margin: 150px 0;
+}
 .btnRed {
     background-color: var(--btn-red);
     border-radius: .25rem;

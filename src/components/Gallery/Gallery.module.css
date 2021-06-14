@@ -1,0 +1,17 @@
+.gallery {
+    background-color: var(--background-blue)
+}
+
+.title {
+    color: var(--text-white);
+    font-weight: bold;
+}
+.gallery_item {
+    border-radius: 15px;
+    background-color: var(--text-white);
+    height: 300px;
+    margin:10px;
+}
+.XL{
+    height: 600px;
+}
