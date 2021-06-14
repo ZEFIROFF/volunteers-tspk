@@ -47,12 +47,8 @@
 }
 
 header {
-    color: var(--text-white);
-<<<<<<< HEAD
-    background-image: url('../../img/backHeader.png');
-=======
-     background-image: url('../../img/backHeader.png');
->>>>>>> 2b08400227cccf11047f0a072c03c7a7cb3cfac4
     background-size: contain;
+    color: var(--text-white);
     background-repeat: round;
+    background-image: url('../../img/backHeader.png');
 }
