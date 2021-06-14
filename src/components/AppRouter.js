@@ -10,7 +10,7 @@ const AppRouter = () => {
                     <Route key={path} path={path} component={component} exact/>
                 ))
             }
-            <Redirect to="/login"/>
+            <Redirect to="/"/>
         </Switch>
     )
 }
