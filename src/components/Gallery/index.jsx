@@ -23,8 +23,7 @@ const Gallery = () => {
                         <div className={s.gallery_item + " col p-0"}></div>
                     </div>
                 </div>
-                <div className="col-auto mx-auto">
-                    {/*отцентрируй потом кнопку пж*/}
+                <div className="d-flex justify-content-center">
                     <a className="btn btn-primary" href="#" role="button">Смотреть еще</a>
                 </div>
             </div>
