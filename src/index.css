@@ -24,6 +24,7 @@ a:hover {
 .Gallery{
     margin: 150px 0;
 }
+
 .btnRed {
     background-color: var(--btn-red);
     border-radius: .25rem;

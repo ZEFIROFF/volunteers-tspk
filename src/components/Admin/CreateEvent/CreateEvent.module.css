@@ -62,14 +62,23 @@ textarea::placeholder {
     color: white;
     padding: 18px 30px;
     text-align: center;
+    transition: all ease-in-out .3s;
 }
 
 .btn_primary {
-    background-color: #a2d1fa;
+    background-color: var(--text-ocean);;
+}
+
+.btn_primary:hover {
+    background-color: var(--btn-blue);
 }
 
 .btn_danger {
     background-color: #fc5b5b;
+}
+
+.btn_danger:hover {
+    background-color: var(--btn-red);
 }
 
 .buttons > input {
