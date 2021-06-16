@@ -18,13 +18,13 @@ const Footer = () => {
                 </nav>
                 <div className="col-5">
                     <ul className="nav flex-column">
-                        <li className="nav-item"><img src={vkIcon} alt="vkIcon"/> - <a className="nav-link link-white d-inline" href="#">VK</a></li>
-                        <li><a className="nav-link d-inline link-white" href="#">Twitter</a></li>
-                        <li><img src={vkInsta} alt="vkInsta"/> - <a className="nav-link link-white d-inline" href="#">Instagram</a></li>
-                        <li><a className="nav-link d-inline link-white" href="#">Facebook</a></li>
+                        <li className="nav-item"><img src={vkIcon} alt="vkIcon"/>-<a className="nav-link link-white d-inline" href="#">VK</a></li>
+                        {/*<li><a className="nav-link d-inline link-white" href="#">Twitter</a></li>*/}
+                        <li><img src={vkInsta} alt="vkInsta"/>-<a className="nav-link link-white d-inline" href="#">Instagram</a></li>
+                        {/*<li><a className="nav-link d-inline link-white" href="#">Facebook</a></li>*/}
                     </ul>
                 </div>
-                <div className="col-2"><img src={logo} alt="logo"/></div>
+                <div className="col-2"><img className="img-fluid" src={logo} alt="logo"/></div>
             </div>
         </footer>
     );

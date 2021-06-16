@@ -2,10 +2,6 @@
     list-style: none;
 }
 
-.navbar li {
-    margin: 0 10px;
-}
-
 .navbar a {
     background: linear-gradient(currentColor 0 0) bottom left/
     var(--underline-width, 0%) 0.1em no-repeat;

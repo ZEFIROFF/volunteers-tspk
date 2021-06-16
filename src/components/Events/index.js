@@ -7,7 +7,7 @@ import TspkLeft from '../../img/ГАПОУ.png'
 const MyComponent = () => {
     return (
         <div className="container-xxl p-0 mt-5">
-            <section className="container-lg flex-nowrap justify-content-between m-0 p-0 row align-items-center">
+            <section className="container-lg mx-auto flex-nowrap justify-content-between m-0 p-0 row align-items-center">
                 <div className="col-7">
                     <h3 className="my-3">Предстоящие события</h3>
                     <div className={s.content + " col"}>
@@ -22,7 +22,7 @@ const MyComponent = () => {
                     <img src={TspkRight} alt="ТСПК"/>
                 </div>
             </section>
-            <section className="container-lg flex-nowrap justify-content-between m-0 p-0 row align-items-center">
+            <section className="container-lg mx-auto flex-nowrap justify-content-between m-0 p-0 row align-items-center">
                 <div className="col-auto p-0">
                     <img src={TspkLeft} alt="ТСПК"/>
                 </div>
