@@ -1,17 +1,21 @@
 .gallery {
-    background-color: var(--background-blue)
+    background-color: var(--background-blue);
+    padding: 125px 0;
+
 }
 
 .title {
     color: var(--text-white);
     font-weight: bold;
 }
+
 .gallery_item {
     border-radius: 15px;
     background-color: var(--text-white);
     height: 300px;
-    margin:10px;
+    margin: 10px;
 }
-.XL{
+
+.XL {
     height: 600px;
 }

@@ -21,10 +21,13 @@ a {
 a:hover {
     color: #ffffff;
 }
-.Gallery{
-    margin: 150px 0;
+.link-white{
+    color: var(--text-white);
+    transition: all ease .3s;
 }
-
+.link-white:hover{
+    color: #cecece;
+}
 .btnRed {
     background-color: var(--btn-red);
     border-radius: .25rem;

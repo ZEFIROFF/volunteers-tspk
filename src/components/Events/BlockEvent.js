@@ -5,7 +5,7 @@ import BtnReadmore from "./BtnReadmore";
 
 const BlockEvent = () => {
     return (
-        <div className={s.block + " container-md-4 my-5 px-5 py-4 col-auto"}>
+        <div className={s.block + " container-md-4 my-5 px-5 py-4 col-auto shadow-lg"}>
             <h3 className={s.title}>Sample name [date]</h3>
             <div className="row justify-content-evenly my-3">
                 <div className="col">

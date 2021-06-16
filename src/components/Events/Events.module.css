@@ -1,9 +1,9 @@
 .block {
     border-radius: 15px;
     background-color: var(--background-blue-light);
-    box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);
-    -webkit-box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);
-    -moz-box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);
+    /*box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);*/
+    /*-webkit-box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);*/
+    /*-moz-box-shadow: 1px 1px 57px 15px rgba(0, 0, 0, 0.13);*/
 }
 
 .title {
