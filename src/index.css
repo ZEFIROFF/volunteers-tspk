@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .link-white{
     color: var(--text-white);

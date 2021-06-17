@@ -21,33 +21,33 @@ const Header = () => {
                 {/*    </ul>*/}
                 {/*    <div className={s.signIn + " col-md-auto"}><a href="#signIn">Войти</a></div>*/}
                 {/*</nav>*/}
-                <nav className="navbar navbar-expand-md bg-success">
+                <nav className="navbar navbar-dark navbar-expand-md">
                     <a className="navbar-brand" href="#">
                         <img className="d-block mx-auto mx-md-0" src={logo} alt={logo}/>
                     </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarMobileMenu" aria-controls="navbarMobileMenu"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon text-white"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarMobileMenu">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
+                        <ul className={s.navbar + " navbar-nav me-auto mb-2 mb-lg-0 mx-auto align-items-center fs-4 fs-2-md text-center-md"}>
+                            <li className="nav-item mx-2">
                                 <a className="nav-link active" aria-current="page" id={s.active} href="#">Главная</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item mx-2">
                                 <a className="nav-link" href="#">Наши волонтеры</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item mx-2">
                                 <a className="nav-link" href="#">Фотоальбом</a>
                             </li>
                         </ul>
-                        <div className={s.signIn + " col-md-auto"}>
+                        <div className={s.signIn + " col-md-auto d-flex justify-content-center"}>
                             <a href="#signIn">Войти</a>
                         </div>
                     </div>
                 </nav>
-                <div className={s.title + " container-md row mx-auto justify-content-md-between p-0"}>
+                <div className={s.title + " container-md row mx-auto justify-content-md-between p-5"}>
                     <div className={s.name + " col-md-5 p-0"}>
                         <h1>Волонтерский центр <br/> "Добро = счастье" ГАПОУ TСПК</h1>
                     </div>

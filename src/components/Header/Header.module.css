@@ -30,7 +30,7 @@
 
 .signIn a:hover {
     background: rgb(255, 255, 255);
-    color: var(--background-blue);
+    color: var(--background-blue) !important;
 }
 
 .name h1 {
@@ -46,6 +46,9 @@ header {
     color: var(--text-white);
     background-repeat: round;
     background-image: url('../../img/backHeader.png');
+}
+#signIn{
+    color: var(--background-blue) !important;
 }
 @media screen and (max-width: 576px){
     .title {
