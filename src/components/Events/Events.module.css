@@ -18,11 +18,3 @@
 .description {
     font-size: 1.2em;
 }
-
-.btnReadmore {
-    padding: 10px;
-    cursor: pointer;
-}
-#readmore{
-    color: var(--text-blue)
-}

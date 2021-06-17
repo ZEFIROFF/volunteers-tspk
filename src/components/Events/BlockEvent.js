@@ -1,7 +1,6 @@
 import React from 'react';
 import s from './Events.module.css'
 import map from '../../img/placeholder.png'
-import BtnReadmore from "./BtnReadmore";
 
 const BlockEvent = () => {
     return (
@@ -12,7 +11,7 @@ const BlockEvent = () => {
                     <button type="button" className="btn btnRed">status...</button>
                 </div>
                 <div className="col">
-                    <div className={s.amount + " row"}>
+                    <div className={s.amount + " row "}>
                         <h5 className="col">Участвуют: ?</h5>
                         <h5 className="col">Запас: ?</h5>
                     </div>
@@ -23,12 +22,12 @@ const BlockEvent = () => {
                 exercitationem fugit harum ipsa iste nulla numquam officia, perspiciatis tempore vel? Iusto laudantium
                 nobis perferendis perspiciatis recusandae!</p>
             <div className="row align-items-center justify-content-between">
-                <div className="col-auto">
+                <div className="col-md-auto col-6">
                     <img width="30px" src={map} alt=""/>
-                    <small>- Местоположение</small>
+                    <small className="d-none d-md-inline">- Местоположение</small>
                 </div>
-                <div className="col-auto">
-                    <BtnReadmore/>
+                <div className="col-md-auto col-6">
+                    <button type="button" className="btn btnRed">Поподробнее</button>
                 </div>
             </div>
         </div>
