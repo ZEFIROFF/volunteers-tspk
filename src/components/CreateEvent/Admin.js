@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './CreateEvent.module.css'
 
-const CreateEvent = () => {
+const AdminCreateEvent = () => {
     return (
         <div className={"mt-5 shadow-lg my-auto " + s.main_box}>
             <h2 className={s.title}>Создание мероприятия</h2>
@@ -29,4 +29,4 @@ const CreateEvent = () => {
     );
 };
 
-export default CreateEvent;
+export default AdminCreateEvent;

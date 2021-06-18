@@ -1,5 +1,6 @@
 import Home from "./components/Home";
-import CreateEvent from "./components/Admin/CreateEvent";
+import AdminCreateEvent from "./components/CreateEvent/Admin";
+import CreateEvent from "./components/CreateEvent";
 
 const routes = [
     {
@@ -8,6 +9,10 @@ const routes = [
     },
     {
         path: '/admin/create-event',
+        component: AdminCreateEvent
+    },
+    {
+        path: '/create-event',
         component: CreateEvent
     }
 ]
