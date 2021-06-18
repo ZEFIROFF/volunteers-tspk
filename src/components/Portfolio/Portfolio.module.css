@@ -1,0 +1,49 @@
+.photoBlock {
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    background-color: #a2d1fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    width: 100%;
+    border-right: #696969 2px solid;
+    padding-top: 8px;
+    padding-bottom: 88px;
+    box-sizing: content-box;
+}
+
+.sidebar__inner {
+    margin-left: 15px;
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftBlock {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullNameTitle {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: #575757;
+}
+
+.createEventButton {
+    width: 335px;
+    height: 65px;
+    background-color: #fc5b5b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

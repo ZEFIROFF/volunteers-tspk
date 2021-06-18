@@ -1,6 +1,7 @@
 import Home from "./components/Home";
 import AdminCreateEvent from "./components/CreateEvent/Admin";
 import CreateEvent from "./components/CreateEvent";
+import Portfolio from "./components/Portfolio";
 
 const routes = [
     {
@@ -14,6 +15,10 @@ const routes = [
     {
         path: '/create-event',
         component: CreateEvent
+    },
+    {
+        path: '/portfolio',
+        component: Portfolio
     }
 ]
 
