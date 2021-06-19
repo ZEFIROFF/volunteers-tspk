@@ -1,6 +1,7 @@
 import React from 'react';
 import noPhoto from '../../img/noPhoto.png'
 import s from './Portfolio.module.css';
+import Certificate from './Certificate';
 
 const Portfolio = () => {
     return (
@@ -17,7 +18,22 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="col-md-9">
-
+                <h2 className={s.portfolioTitle}>Портфолио</h2>
+                <div className={`${s.rightBlock} row`}>
+                    <div className={`${s.cardWrapper}`}>
+                        <Certificate />
+                    </div>
+                    <div className={`${s.cardWrapper}`}>
+                        <Certificate />
+                    </div>
+                    <div className={`${s.cardWrapper}`}>
+                        <Certificate />
+                    </div>
+                    <div className={`${s.cardWrapper}`}>
+                        <Certificate />
+                    </div>
+                </div>
+                <p className={s.openPortfolio}>Открыть портфолио полностью</p>
             </div>
         </div>
     );
