@@ -54,6 +54,10 @@
     margin: auto;
 }
 
+.cardWrapper:nth-child(2n) > div {
+    margin-left: auto;
+}
+
 .cardWrapper {
     margin-top: 40px;
     width: 50%;
@@ -75,4 +79,9 @@
     margin-top: 10px;
     color: #6b9ffd;
     cursor: pointer;
+}
+
+.container {
+    width: 1772px;
+    margin: auto;
 }
