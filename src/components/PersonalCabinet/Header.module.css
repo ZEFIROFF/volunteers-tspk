@@ -1,0 +1,50 @@
+.header {
+    height: 410px;
+    background: linear-gradient(-218deg, #cbbacc 20%, #3bb1e0 100%);
+    padding-top: 50px;
+    position: relative;
+    border-bottom: black 1px solid;
+}
+
+.avatar {
+    height: 210px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avatarImg {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #bcbfc1;
+    border: 4px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarText {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.emoji {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cabinetTitle {
+    position: absolute;
+    text-align: center;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    font-size: 72px;
+    color: white;
+}

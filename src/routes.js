@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import AdminCreateEvent from "./components/CreateEvent/Admin";
 import CreateEvent from "./components/CreateEvent";
 import Portfolio from "./components/Portfolio";
+import PersonalCabinet from "./components/PersonalCabinet";
 
 const routes = [
     {
@@ -19,6 +20,10 @@ const routes = [
     {
         path: '/portfolio',
         component: Portfolio
+    },
+    {
+        path: '/cabinet',
+        component: PersonalCabinet
     }
 ]
 

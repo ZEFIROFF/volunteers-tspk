@@ -1,0 +1,37 @@
+.card {
+    height: 445px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardContent {
+    border-radius: 50px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 10px black;
+}
+
+.btn {
+    width: 118px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.yelllowButton {
+    margin-right: 30px;
+    background-color: #e0c31d;
+}
+
+.greenButton {
+    background-color: #65e06d;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
