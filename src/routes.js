@@ -3,6 +3,7 @@ import AdminCreateEvent from "./components/CreateEvent/Admin";
 import CreateEvent from "./components/CreateEvent";
 import Portfolio from "./components/Portfolio";
 import PersonalCabinet from "./components/PersonalCabinet";
+import OurVolunteers from "./components/OurVolunteers";
 
 const routes = [
     {
@@ -24,7 +25,11 @@ const routes = [
     {
         path: '/cabinet',
         component: PersonalCabinet
-    }
+    },
+    {
+        path: '/our-volunteers',
+        component: OurVolunteers
+    },
 ]
 
 export default routes

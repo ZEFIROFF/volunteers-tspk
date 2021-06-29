@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../../favicon.png'
-import s from './Header.module.css'
-import emoji from '../../img/emoji.png'
+import Footer from '../Footer'
+import logo from "../../favicon.png";
+import s from "../Header/Header.module.css";
+import Card from './VolunteerCard';
 
-const Header = () => {
+const OurVolunteers = () => {
     return (
-        <>
-        <header>
-            <div className="container-xxl p-0 ">
+        <div className="container-fluid m-0 p-0">
+            <header>
                 <nav className="navbar navbar-dark navbar-expand-md">
                     <a className="navbar-brand" href="#">
                         <img className="d-block mx-auto mx-md-0" src={logo} alt={logo}/>
@@ -30,23 +30,24 @@ const Header = () => {
                             </li>
                         </ul>
                         <div className={s.signIn + " col-md-auto d-flex justify-content-center"}>
-                            <a href="#signIn">Войти</a>
                         </div>
                     </div>
                 </nav>
-                <div className={s.title + " container-md row mx-auto justify-content-md-between p-5 m-0"}>
-                    <div className={s.name + " col-md-5 p-0"}>
-                        <h1>Волонтерский центр <br/> "Добро = счастье" ГАПОУ TСПК</h1>
-                    </div>
-                    <div className="col-md-auto">
-                        <img className="img-fluid d-none d-md-block" src={emoji} alt="emoji"/>
-                    </div>
-                </div>
-            </div>
-        </header>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8bd2fc" fill-opacity="1" d="M0,64L80,96C160,128,320,192,480,192C640,192,800,128,960,101.3C1120,75,1280,85,1360,90.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-            </>
+            </header>
+            <main className="container-fluid row-cols-4 d-flex flex-row flex-wrap align-items-center">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </main>
+            <Footer/>
+        </div>
     );
 };
 
-export default Header;
+export default OurVolunteers;
