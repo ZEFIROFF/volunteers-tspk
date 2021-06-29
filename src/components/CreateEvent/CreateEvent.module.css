@@ -89,3 +89,7 @@ textarea::placeholder {
 .buttons > input:not(:first-child) {
     margin-left: 30px;
 }
+
+.bottom_right_inputs > input:not(:first-child) {
+    margin-left: 10px;
+}
