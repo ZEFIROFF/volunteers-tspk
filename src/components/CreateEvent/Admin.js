@@ -12,12 +12,12 @@ const AdminCreateEvent = () => {
                 </div>
                 <textarea placeholder="Введите описание мероприятия" className="mt-5"></textarea>
                 <div className="d-flex justify-content-between mt-5">
-                    <div>
-                        <input placeholder="Введите местоположение мероприятия" type="text" className={s.input} />
-                    </div>
+                    <input placeholder="Введите местоположение мероприятия" type="text" className={`${s.input} ${s.bottom_left_input}`} />
                     <div className={s.bottom_right_inputs}>
-                        <input placeholder="Введите количество участников" type="text" className={s.input} />
-                        <input placeholder="Введите количество запасных" type="text" className={s.input} />
+                        <textarea placeholder="Введите количество
+                        участников" type="text" className={s.input}></textarea>
+                        <textarea placeholder="Введите количество
+                        запасных" type="text" className={s.input}></textarea>
                     </div>
                 </div>
                 <div className={"mt-5 d-flex justify-content-center " + s.buttons}>
