@@ -17,14 +17,6 @@
     box-sizing: border-box;
 }
 
-a {
-    color: var(--text-white);
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ffffff !important;
-}
 .link-white{
     color: var(--text-white);
     transition: all ease .3s;

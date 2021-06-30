@@ -18,8 +18,10 @@ const Footer = () => {
                 </nav>
                 <div className="col-5">
                     <ul className="nav flex-column">
-                        <li className="nav-item"><img src={vkIcon} alt="vkIcon"/>-<a className="nav-link link-white d-inline" href="#">VK</a></li>
-                        <li><img src={vkInsta} alt="vkInsta"/>-<a className="nav-link link-white d-inline" href="#">Instagram</a></li>
+                        <li className="nav-item"><img src={vkIcon} alt="vkIcon"/><a
+                            className="nav-link link-white d-inline" href="#">VK</a></li>
+                        <li><img src={vkInsta} alt="vkInsta"/><a className="nav-link link-white d-inline"
+                                                                  href="#">Instagram</a></li>
                     </ul>
                 </div>
                 <div className="col-2"><img className="img-fluid" src={logo} alt="logo"/></div>

@@ -13,7 +13,7 @@ const Gallery = () => {
                         <div className={s.gallery_item + " col-md col-12 p-0"}></div>
                         <div className={s.gallery_item + " col-md-4 col-12 p-0"}></div>
                     </div>
-                    <div className="col-md-auto col flex-md-row row flex-column">
+                    <div className ="col-md-auto col flex-md-row row flex-column">
                         <div className={s.gallery_item + " " + s.XL + " col-md p-0 col-12"}></div>
                         <div className={s.gallery_item + " " + s.XL + " col-md p-0 col-12"}></div>
                         <div className={s.gallery_item + " " + s.XL + " col-md p-0 col-12"}></div>
