@@ -6,7 +6,7 @@ import s from '../Events/Events.module.css'
 
 const VolunteerCard = () => {
     return (
-        <div className={'card m-3 border-0 ' + sn.card_item + " "+ s.block}>
+        <div className={'card m-md-3 border-0 col-12 mx-0 ' + sn.card_item + " "+ s.block}>
             <img src={blindImg} className="card-img-top " alt="image-profile"/>
                 <div className="card-body">
                     <h5 className={s.title}>Фамилия Имя (Отчество)</h5>

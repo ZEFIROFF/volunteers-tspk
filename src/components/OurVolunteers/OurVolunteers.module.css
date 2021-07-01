@@ -1,3 +1,6 @@
-.card_item{
-    max-width: 17.666%;
+@media (min-width: 768px) {
+    .card_item {
+        max-width: 17.666%;
+
+    }
 }
